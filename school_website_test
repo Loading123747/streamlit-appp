@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header("welcome")
-st.subheader("go to this website for game: https://4wt6q5-8080.csb.app/")
+st.subheader("go to this website for game: ttps://fdmnrn-8080.csb.app/")
 
 def get_person_name():
     query_params = st.experimental_get_query_params()
