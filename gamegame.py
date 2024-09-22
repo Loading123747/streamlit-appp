@@ -42,7 +42,7 @@ def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://play2048.co/'
+    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-pna%7B224%3A.ao-/'
 
     # HTML code to embed the game in an iframe
     iframe_code = f'''
