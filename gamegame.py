@@ -8,7 +8,8 @@ PAGES = {
     "Play Powerline": "game2",
     "Play Snake.io": "snake",
     "Play Wings.io": "Wing",
-    "Play Slither.io": "Slither"
+    "Play Slither.io": "Slither",
+    "Your Games": "dev"
 }
 
 def main():
@@ -33,14 +34,14 @@ def main():
         play_Wing()
     elif st.session_state.page == "Slither":
         play_Slither()
+    elif st.session_state.page == "dev":
+        play_dev()
 
 def home():
-    st.title("Welcome to the Game Portal")
-    st.write("Click the button below to play 2048!")
+    st.title("Welcome to CR7 Games! (Suuuuui!!!)")
+    st.write("Click the link below to open proxy!")
+    st.write("https://fdmnrn-8080.csb.app")
 
-    # Button to navigate to the game page
-    if st.button('Play 2048'):
-        st.session_state.page = 'game'
 
 def play_2048():
     st.title('Play 2048')
@@ -108,9 +109,27 @@ def play_Wing():
     '''
 
     # Render the iframe in the Streamlit app
-    components.html(iframe_code, height=800)
-
     # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_dev():
+    st.title("Your Games")
+    st.subheader("Submit requests for your favorite games")
+    st.header("Get in touch with me")
+    contact_form = """
+    <form action="https://formsubmit.co/Panvi83@outlook.com" method="POST">
+        <input type="text" name="name" placeholder = "Your Name" required>
+        <input type="email" name="email" placeholder = "Your Email" required>
+        <textarea name="message" placeholder="Your favorite game" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column:
+        st.empty()
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
