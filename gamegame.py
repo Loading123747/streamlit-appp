@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from PIL import Image
 
 # Define the pages
 PAGES = {
@@ -11,6 +12,7 @@ PAGES = {
     "Play Slither.io": "Slither",
     "Play Geometry Dash": "geo",
     "Play Level Devil": "level",
+    "Play Oregon Trial Game": "trial",
     "Your Games": "dev"
 }
 
@@ -42,12 +44,14 @@ def main():
         play_dev()
     elif st.session_state.page == "level":
         play_level()
+    elif st.session_state.page == "trial":
+        play_trial()
 
 def home():
+    st.link_button("🚨🚨EMERGENCY!(Click if the teacher is near)🚨🚨", "https://www.aleks.com/login")
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
-    st.write("Click the link below to open proxy!")
-    st.write("https://fdmnrn-8080.csb.app")
-
+    st.write("Click the button below to open proxy!")
+    st.link_button("Proxy", "https://fdmnrn-8080.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -71,7 +75,7 @@ def play_Slither():
     st.title('Play Slither.io')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-snivhgreaoe%2Cim%2F/'
+    game_url = 'https://ilovecrayons.hectorhector.com/portal?auth=mtf5b8w'
 
     # HTML code to embed the game in an iframe
     iframe_code = f'''
@@ -108,7 +112,7 @@ def play_Wing():
     st.title('Play Wings.io')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtr%3A-%2Fuilgq.ko/'
+    game_url = 'https://ilovecrayons.hectorhector.com/portal?auth=mtf5b8w'
 
     # HTML code to embed the game in an iframe
     iframe_code = f'''
@@ -165,7 +169,7 @@ def play_level():
     st.title('Play Level Devil')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://leveldevil.io/'
+    game_url = 'https://gamepluto.com/game/infinite-craft/'
 
     # HTML code to embed the game in an iframe
     iframe_code = f'''
@@ -178,6 +182,25 @@ def play_level():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
+def play_trial():
+    st.title('Play Oregon Trial')
+
+    # URL of the game or webpage you want to embed
+    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-opeeoltpakl%2Cwq%2Feaoeq%2Fvhg-mrggmn%2Ftpakl-pna%7B%2F/'
+
+    # HTML code to embed the game in an iframe
+    iframe_code = f'''
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    '''
+
+    # Render the iframe in the Streamlit app
+    components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
 
 if __name__ == "__main__":
     main()
