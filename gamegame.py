@@ -54,6 +54,7 @@ def home():
     st.link_button("Proxy", "https://fdmnrn-8080.csb.app/")
     st.link_button("Live Chat", "https://mcnwf5-5000.csb.app/")
 
+
 def play_2048():
     st.title('Play 2048')
 
@@ -112,7 +113,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://ilovecrayons.hectorhector.com/portal?auth=mtf5b8w'
+    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-bcsievbcln-qtcrq.ko-/'
 
     # HTML code to embed the game in an iframe
     iframe_code = f'''
