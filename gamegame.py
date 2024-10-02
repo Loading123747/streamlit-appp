@@ -52,7 +52,7 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://fdmnrn-8080.csb.app/")
-    st.link_button("Live Chat", "https://mcnwf5-5000.csb.app/")
+    st.link_button("Live Chat", "https://2d39rn-8080.csb.app/")
 
 
 def play_2048():
