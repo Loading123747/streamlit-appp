@@ -62,7 +62,7 @@ Livechat885@gmail.com
 LiveLivechat@885
 """)
 
-    st.link_button("Live Chat", "https://r82sm7-8080.csb.app/service/hvtrs8%2F-cmdgscnfbmx%2Cim%2Fqienkn%3Dcmnvilug%3Djtvpq%251A'2D%250Faofeqald%60oz.ko'2Dawtj%250Frrgvkeu%251Frrgvkeu_wrn%251Djtvpq%251A'2D%250Ft4rrol%2F5202.as%60.cpr%250F/")
+    st.link_button("Live Chat", "https://dp67gr-8080.csb.app/")
 
 
 def play_2048():
