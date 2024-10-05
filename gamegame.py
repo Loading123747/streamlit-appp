@@ -51,8 +51,18 @@ def main():
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://fdmnrn-8080.csb.app/")
-    st.link_button("Live Chat", "https://2d39rn-8080.csb.app/")
+    st.link_button("Proxy", "https://r82sm7-8080.csb.app/")
+    st.write("""
+It will ask to sign in to CodeSandbox, choose Google:
+  
+**Username:**  
+Livechat885@gmail.com
+
+**Password:**  
+LiveLivechat@885
+""")
+
+    st.link_button("Live Chat", "https://r82sm7-8080.csb.app/service/hvtrs8%2F-cmdgscnfbmx%2Cim%2Fqienkn%3Dcmnvilug%3Djtvpq%251A'2D%250Faofeqald%60oz.ko'2Dawtj%250Frrgvkeu%251Frrgvkeu_wrn%251Djtvpq%251A'2D%250Ft4rrol%2F5202.as%60.cpr%250F/")
 
 
 def play_2048():
@@ -61,9 +71,9 @@ def play_2048():
     # URL of the game or webpage you want to embed
     game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-pna%7B224%3A.ao-/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -79,9 +89,9 @@ def play_Slither():
     # URL of the game or webpage you want to embed
     game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-snoremnnile%2Collkng%2Fqlmpg-eaoe/'
 
-        # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -96,9 +106,9 @@ def play_powerline():
     # URL of the game or webpage you want to embed
     game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-snoremnnile%2Collkng%2F%60aakpommq/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -115,9 +125,9 @@ def play_Wing():
     # URL of the game or webpage you want to embed
     game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-bcsievbcln-qtcrq.ko-/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -151,11 +161,11 @@ def play_geo():
     st.title('Play Geometry Dash')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-ggooevr%7Bgcmg.mre%2F/'
+    game_url = 'https://r82sm7-8080.csb.app/service/hvtrs8%2F-ggooevr%7Bgcmg.mre%2F/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -172,9 +182,9 @@ def play_level():
     # URL of the game or webpage you want to embed
     game_url = 'https://gamepluto.com/game/infinite-craft/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -190,9 +200,9 @@ def play_trial():
     # URL of the game or webpage you want to embed
     game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-opeeoltpakl%2Cwq%2F/'
 
-    # HTML code to embed the game in an iframe
+    # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;"></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
     '''
 
     # Render the iframe in the Streamlit app
