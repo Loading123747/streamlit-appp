@@ -2,6 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
+cr = Image.open('cmn.jpeg')
+cr7 = Image.open("Ronaldo.jpeg")
 # Define the pages
 PAGES = {
     "Home": "home",
@@ -51,25 +53,14 @@ def main():
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://r82sm7-8080.csb.app/")
-    st.write("""
-It will ask to sign in to CodeSandbox, choose Google:
-  
-**Username:**  
-Livechat885@gmail.com
-
-**Password:**  
-LiveLivechat@885
-""")
-
+    st.link_button("Proxy", "https://dddjtd-8080.csb.app/")
     st.link_button("Live Chat", "https://dp67gr-8080.csb.app/")
-
 
 def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-pna%7B224%3A.ao-/'
+    game_url = 'https://r82sm7-8080.csb.app/service/hvtrs8%2F-224%3Agcmg.aoo%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -87,7 +78,7 @@ def play_Slither():
     st.title('Play Slope')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-snoremnnile%2Collkng%2Fqlmpg-eaoe/'
+    game_url = 'https://ilovecrayons.hectorhector.com/portal?auth=nhkt1he'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -212,6 +203,6 @@ def play_trial():
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
-
+left_column, right_column = st.columns(2)
 if __name__ == "__main__":
     main()
