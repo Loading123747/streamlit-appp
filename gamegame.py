@@ -2,8 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-cr = Image.open('cmn.jpeg')
-cr7 = Image.open("Ronaldo.jpeg")
 # Define the pages
 PAGES = {
     "Home": "home",
