@@ -189,15 +189,15 @@ def play_level():
 def play_app():
     st.title('Apps')
 
-    st.link_button("Crazy Games", "https://cr7gamesproxyv2.vercel.app/portal?auth=es43agv")
-    st.link_button("Now.gg", "https://cr7gamesproxyv2.vercel.app/portal?auth=276r025")
-    st.link_button("Chess.com", "https://cr7gamesproxyv2.vercel.app/portal?auth=8vsug94")
-    st.link_button("Tiktok", "https://cr7gamesproxyv2.vercel.app/portal?auth=fju1vh8")
-    st.link_button("CoolMath Games", "https://cr7gamesproxyv2.vercel.app/portal?auth=f873s4j")
-    st.link_button("9amine", "https://cr7gamesproxyv2.vercel.app/portal?auth=tuiohp8")
-    st.link_button("SFlix Movies", "https://cr7gamesproxyv2.vercel.app/portal?auth=75chk0a")
-    st.link_button('Netflix', "https://cr7gamesproxyv2.vercel.app/portal?auth=qf8nj5n")
-    st.link_button("Better Proxy", "https://cr7gamesproxyv2.vercel.app/?vercelToolbarCode=hjwz0YYP6eoJ_Wm/mobile.html")
+    st.link_button("Crazy Games", "https://v4v2-xi.vercel.app/portal?auth=1dn16um")
+    st.link_button("Now.gg", "https://v4v2-xi.vercel.app/portal?auth=6n36m0g")
+    st.link_button("Chess.com", "https://v4v2-xi.vercel.app/portal?auth=vgf81c2")
+    st.link_button("Tiktok", "https://v4v2-xi.vercel.app/portal?auth=cir3eg5")
+    st.link_button("CoolMath Games", "https://v4v2-xi.vercel.app/portal?auth=uotrv5k")
+    st.link_button("9amine", "https://v4v2-xi.vercel.app/portal?auth=94rnaqa")
+    st.link_button("SFlix Movies", "https://v4v2-xi.vercel.app/portal?auth=ct6oipb")
+    st.link_button('Netflix', "https://v4v2-xi.vercel.app/portal?auth=v5u52ul")
+    st.link_button("Better Proxy", "https://v4v2-xi.vercel.app/?vercelToolbarCode=87JuSHoL2jBC62o")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
