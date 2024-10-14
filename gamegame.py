@@ -54,7 +54,7 @@ def main():
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://cr7gamesproxyv2.vercel.app/?vercelToolbarCode=2MlrRU3lecLliL0")
+    st.link_button("Proxy", "https://m6frhg-8080.csb.app")
     st.link_button("Live Chat", "https://fs8cf2-5000.csb.app/")
 
 def play_2048():
@@ -96,7 +96,7 @@ def play_powerline():
     st.title('Play BackRooms')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-snoremnnile%2Collkng%2F%60aakpommq/'
+    game_url = 'https://m6frhg-8080.csb.app/service/https://backroomsgame.net/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -115,7 +115,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-bcsievbcln-qtcrq.ko-/'
+    game_url = 'https://m6frhg-8080.csb.app/service/https://basketballstars-game.io/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -153,7 +153,7 @@ def play_geo():
     st.title('Play Geometry Dash')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://cr7gamesproxyv2.vercel.app/portal?auth=4r620df'
+    game_url = 'https://m6frhg-8080.csb.app/service/https://geometrygame.org/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -205,7 +205,7 @@ def play_trial():
     st.title('Play Oregon Trial')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://fdmnrn-8080.csb.app/service/hvtrs8%2F-opeeoltpakl%2Cwq%2F/'
+    game_url = 'https://m6frhg-8080.csb.app/service/https://oregontrail.ws/games/the-oregon-trail/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
