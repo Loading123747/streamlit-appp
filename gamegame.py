@@ -13,6 +13,7 @@ PAGES = {
     "Play Geometry Dash": "geo",
     "Play Level Devil": "level",
     "Play Oregon Trial Game": "trial",
+    "Apps": "app",
     "Your Games": "dev"
 }
 
@@ -47,18 +48,20 @@ def main():
         play_level()
     elif st.session_state.page == "trial":
         play_trial()
+    elif st.session_state.page == "app":
+        play_app()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://dddjtd-8080.csb.app/")
-    st.link_button("Live Chat", "https://dp67gr-8080.csb.app/")
+    st.link_button("Proxy", "https://cr7gamesproxyv2.vercel.app/?vercelToolbarCode=2MlrRU3lecLliL0")
+    st.link_button("Live Chat", "https://fs8cf2-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://r82sm7-8080.csb.app/service/hvtrs8%2F-224%3Agcmg.aoo%2F/'
+    game_url = 'https://rtqpnd-8000.csb.app/portal?auth=itv2vv5'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -150,7 +153,7 @@ def play_geo():
     st.title('Play Geometry Dash')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://r82sm7-8080.csb.app/service/hvtrs8%2F-ggooevr%7Bgcmg.mre%2F/'
+    game_url = 'https://cr7gamesproxyv2.vercel.app/portal?auth=4r620df'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -180,6 +183,21 @@ def play_level():
     components.html(iframe_code, height=800)
 
     # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_app():
+    st.title('Apps')
+
+    st.link_button("Crazy Games", "https://cr7gamesproxyv2.vercel.app/portal?auth=es43agv")
+    st.link_button("Now.gg", "https://cr7gamesproxyv2.vercel.app/portal?auth=276r025")
+    st.link_button("Chess.com", "https://cr7gamesproxyv2.vercel.app/portal?auth=8vsug94")
+    st.link_button("Tiktok", "https://cr7gamesproxyv2.vercel.app/portal?auth=fju1vh8")
+    st.link_button("CoolMath Games", "https://cr7gamesproxyv2.vercel.app/portal?auth=f873s4j")
+    st.link_button("9amine", "https://cr7gamesproxyv2.vercel.app/portal?auth=tuiohp8")
+    st.link_button("SFlix Movies", "https://cr7gamesproxyv2.vercel.app/portal?auth=75chk0a")
+    st.link_button('Netflix', "https://cr7gamesproxyv2.vercel.app/portal?auth=qf8nj5n")
+    st.link_button("Better Proxy", "https://cr7gamesproxyv2.vercel.app/?vercelToolbarCode=hjwz0YYP6eoJ_Wm/mobile.html")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
