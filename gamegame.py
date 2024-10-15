@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-# Define the pages
 PAGES = {
     "Home": "home",
     "Play 2048": "game",
@@ -55,7 +54,7 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://m6frhg-8080.csb.app")
-    st.link_button("Live Chat", "https://fs8cf2-5000.csb.app/")
+    st.link_button("Live Chat", "https://r4wyth-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -189,15 +188,16 @@ def play_level():
 def play_app():
     st.title('Apps')
 
-    st.link_button("Crazy Games", "https://v4v2-xi.vercel.app/portal?auth=1dn16um")
+    st.link_button("Crazy Games", "https://rtqpnd-8000.csb.app/portal?auth=nqfomcv")
     st.link_button("Now.gg", "https://v4v2-xi.vercel.app/portal?auth=6n36m0g")
     st.link_button("Chess.com", "https://v4v2-xi.vercel.app/portal?auth=vgf81c2")
     st.link_button("Tiktok", "https://v4v2-xi.vercel.app/portal?auth=cir3eg5")
-    st.link_button("CoolMath Games", "https://v4v2-xi.vercel.app/portal?auth=uotrv5k")
+    st.link_button("CoolMath Games", "https://rtqpnd-8000.csb.app/portal?auth=bicqrgu")
     st.link_button("9amine", "https://v4v2-xi.vercel.app/portal?auth=94rnaqa")
     st.link_button("SFlix Movies", "https://v4v2-xi.vercel.app/portal?auth=ct6oipb")
     st.link_button('Netflix', "https://v4v2-xi.vercel.app/portal?auth=v5u52ul")
-    st.link_button("Better Proxy", "https://aleks-three.vercel.app/?vercelToolbarCode=r2eXdt324SkHLZE")
+    st.link.button("Extra Games", "https://rtqpnd-8000.csb.app/gms")
+    st.link_button("Better Proxy", "https://slate-sand-six.vercel.app/?vercelToolbarCode=eDM2cSzCo9RxWzG")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
