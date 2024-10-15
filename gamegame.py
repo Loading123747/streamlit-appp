@@ -196,8 +196,8 @@ def play_app():
     st.link_button("9amine", "https://v4v2-xi.vercel.app/portal?auth=94rnaqa")
     st.link_button("SFlix Movies", "https://v4v2-xi.vercel.app/portal?auth=ct6oipb")
     st.link_button('Netflix', "https://v4v2-xi.vercel.app/portal?auth=v5u52ul")
-    st.link.button("Extra Games", "https://rtqpnd-8000.csb.app/gms")
-    st.link_button("Better Proxy", "https://slate-sand-six.vercel.app/?vercelToolbarCode=eDM2cSzCo9RxWzG")
+    st.link_button("Extra Games", "https://rtqpnd-8000.csb.app/gms")
+    st.link_button("Better Proxy", "https://rtqpnd-8000.csb.app/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
