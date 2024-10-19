@@ -2,6 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
+cr = Image.open('cmn.jpeg')
+cr7 = Image.open("Ronaldo.jpeg")
 # Define the pages
 PAGES = {
     "Home": "home",
@@ -61,7 +63,7 @@ def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://rtqpnd-8000.csb.app/portal?auth=itv2vv5'
+    game_url = 'https://rtqpnd-8000.csb.app/portal?auth=i0mvljg'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
