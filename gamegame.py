@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-
 # Define the pages
 PAGES = {
     "Home": "home",
@@ -55,14 +54,14 @@ def main():
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://m6frhg-8080.csb.app")
+    st.link_button("Proxy", "https://dsfkn.netlify.app/")
     st.link_button("Live Chat", "https://5jkqk4-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://rtqpnd-8000.csb.app/portal?auth=i0mvljg'
+    game_url = 'https://rtqpnd-8000.csb.app/portal?auth=5s204jn'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
