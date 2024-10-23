@@ -15,6 +15,7 @@ PAGES = {
     "Play Oregon Trial Game": "trial",
     "Play Basket Random": "basket",
     "Play Crossy Road": "cross",
+    "Information": "info",
     "Apps": "app",
     "Your Games": "dev"
 }
@@ -56,9 +57,12 @@ def main():
         play_basket()
     elif st.session_state.page == "cross":
         play_cross()
+    elif st.session_state.page == "info":
+        play_info()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
+    st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://gndrt5-8080.csb.app")
     st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
@@ -264,6 +268,13 @@ def play_cross():
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
+
+def play_info():
+    st.title("Information")
+    st.subheader("Notes before we begin:")
+    st.write("This website is still under development and is sometimes a bit glitchly. when you open or use any of the games give it some time to load and if it does not work reload the page a few times. New games will be added often so if you think that his website has very little games or games that you don't like, suggest some games to me in the your games tab. I also wish that you use the live chat website in the home page so that you can talk with other people that are using the website(or the people using the chat app) it is also realtime and I will be on it 24/7(I hope)")
+    st.subheader("Information:")
+    st.write("If you want to use the proxy in the home tab know that it does not work most of the time due to development, so if you want to use the proxy go to the apps tab and use the better proxy. For more games there is also a link to my other website for more games. Just like I said in the notes if the games don't work reload the website a few times, the same goes for the proxy that the extra games. I hope that you enjoy the website and good luck")
 left_column, right_column = st.columns(2)
 if __name__ == "__main__":
     main()
