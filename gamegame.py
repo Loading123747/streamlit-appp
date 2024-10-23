@@ -55,7 +55,7 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://gndrt5-8080.csb.app")
-    st.link_button("Live Chat", "https://5jkqk4-5000.csb.app/")
+    st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -96,7 +96,7 @@ def play_powerline():
     st.title('Play BackRooms')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://m6frhg-8080.csb.app/service/https://backroomsgame.net/'
+    game_url = 'https://gndrt5-8080.csb.app/service/https://backroomsgame.io/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -115,7 +115,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://m6frhg-8080.csb.app/service/https://basketballstars-game.io/'
+    game_url = 'https://gndrt5-8080.csb.app/service/https://basketball-stars.io/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -197,8 +197,8 @@ def play_app():
     st.link_button("9amine", "https://rtqpnd-8000.csb.app/portal?auth=jfa05at")
     st.link_button("SFlix Movies", "https://rtqpnd-8000.csb.app/portal?auth=513v99m")
     st.link_button('Netflix', "https://rtqpnd-8000.csb.app/portal?auth=85jitel")
-    st.link_button("Extra Games", "https://rtqpnd-8000.csb.app/gms")
-    st.link_button("Better Proxy", "https://rtqpnd-8000.csb.app/")
+    st.link_button("Extra Games", "https://5nv5pz-8000.csb.app/gms")
+    st.link_button("Better Proxy", "https://5nv5pz-8000.csb.app")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
