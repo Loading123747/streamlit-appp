@@ -6,12 +6,11 @@ from PIL import Image
 PAGES = {
     "Home": "home",
     "Play 2048": "game",
-    "Play Backrooms": "game2",
-    "Play Snake.io": "snake",
+    "Play 5 Nights At Freddy's": "game2",
     "Play Basketball Stars": "Wing",
     "Play Slope": "Slither",
-    "Play Geometry Dash": "geo",
-    "Play Level Devil": "level",
+    "Play Granny": "geo",
+    "Play Bitlife": "level",
     "Play Oregon Trial Game": "trial",
     "Play Basket Random": "basket",
     "Play Crossy Road": "cross",
@@ -64,14 +63,14 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://gndrt5-8080.csb.app")
+    st.link_button("Proxy", "https://yp2gfc-8080.csb.app/")
     st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://2048game.com/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly8yMDQ4Z2FtZS5jb20=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -89,7 +88,7 @@ def play_Slither():
     st.title('Play Slope')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://slope2.online/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9zbG9wZTMuY29t_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -103,10 +102,10 @@ def play_Slither():
         st.session_state.page = 'home'
 
 def play_powerline():
-    st.title('Play BackRooms')
+    st.title('Play 5 Nights At Freddys')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://backroomsgame.io/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9maXZlbmlnaHRzYXRmcmVkZHlzMy5jb20=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -125,7 +124,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://basketball-stars.io/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -160,10 +159,10 @@ def play_dev():
         st.session_state.page = 'home'
 
 def play_geo():
-    st.title('Play Geometry Dash')
+    st.title('Play Granny')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://geometrygame.org/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9nYW1lZm9yZ2UuY29t_/en-US/littlegames/granny-chapter-two/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -179,10 +178,10 @@ def play_geo():
 
 
 def play_level():
-    st.title('Play Level Devil')
+    st.title('Play Bitlife')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://leveldevil.io/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/bitlife'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -201,7 +200,7 @@ def play_basket():
     st.title('Play Basket Random')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://basketrandom.io/'
+    game_url = 'hhttps://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/basket-random'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -251,10 +250,10 @@ def play_trial():
         st.session_state.page = 'home'
 
 def play_cross():
-    st.title('Play Basket Random')
+    st.title('Play Crossy Road')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://gamecomets.com/game/crossy-road/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/crossy-road'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
