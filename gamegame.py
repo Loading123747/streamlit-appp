@@ -11,7 +11,7 @@ PAGES = {
     "Play Slope": "Slither",
     "Play Granny": "geo",
     "Play Bitlife": "level",
-    "Play Oregon Trial Game": "trial",
+    "Play Level Devil": "trial",
     "Play Basket Random": "basket",
     "Play Crossy Road": "cross",
     "Information": "info",
@@ -232,10 +232,10 @@ def play_app():
         st.session_state.page = 'home'
 
 def play_trial():
-    st.title('Play Oregon Trial')
+    st.title('Play Level Devil')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://gndrt5-8080.csb.app/service/https://oregontrail.ws/games/the-oregon-trail/'
+    game_url = 'https://8rlrwp-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/level-devil'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
