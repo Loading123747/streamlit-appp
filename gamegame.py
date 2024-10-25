@@ -21,6 +21,7 @@ PAGES = {
 }
 
 def main():
+    st.header("2 MORE DAYS TILL BARCELONA VS REAL MADRID!!!")
     st.link_button("🚨🚨EMERGENCY!(Click if the teacher is near)🚨🚨", "https://www.aleks.com/login")
     if 'page' not in st.session_state:
         st.session_state.page = "home"
@@ -287,6 +288,7 @@ def play_retro():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
 
 
 def play_info():
