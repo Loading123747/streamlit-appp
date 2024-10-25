@@ -21,7 +21,7 @@ PAGES = {
 }
 
 def main():
-    st.header("2 MORE DAYS TILL BARCELONA VS REAL MADRID!!!")
+    st.header("2 MORE DAYS TILL BARCELONA VS REAL MADRID!!! Madrid is going to win!!!")
     st.link_button("🚨🚨EMERGENCY!(Click if the teacher is near)🚨🚨", "https://www.aleks.com/login")
     if 'page' not in st.session_state:
         st.session_state.page = "home"
