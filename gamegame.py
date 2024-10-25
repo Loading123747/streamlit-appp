@@ -63,7 +63,7 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://yp2gfc-8080.csb.app/")
+    st.link_button("Proxy", "https://8rlrwp-8080.csb.app/")
     st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
 
 def play_2048():
@@ -218,16 +218,16 @@ def play_basket():
 def play_app():
     st.title('Apps')
 
-    st.link_button("Crazy Games", "https://rtqpnd-8000.csb.app/portal?auth=kl828rs")
-    st.link_button("Now.gg", "https://rtqpnd-8000.csb.app/portal?auth=q32jakr")
-    st.link_button("Chess.com", "https://rtqpnd-8000.csb.app/portal?auth=f4fw9wb")
-    st.link_button("Tiktok", "https://rtqpnd-8000.csb.app/portal?auth=7w4jjkm")
+    st.link_button("Crazy Games", "https://rzl6h2-8000.csb.app/live?auth=51u3w53")
+    st.link_button("Now.gg", "https://rzl6h2-8000.csb.app/live?auth=03k3fdc")
+    st.link_button("Chess.com", "https://rzl6h2-8000.csb.app/live?auth=tbuv9l6")
+    st.link_button("Tiktok", "https://rzl6h2-8000.csb.app/live?auth=tbuv9l6")
     st.link_button("CoolMath Games", "https://rtqpnd-8000.csb.app/portal?auth=bicqrgu")
     st.link_button("9amine", "https://rtqpnd-8000.csb.app/portal?auth=jfa05at")
     st.link_button("SFlix Movies", "https://rtqpnd-8000.csb.app/portal?auth=513v99m")
     st.link_button('Netflix', "https://rtqpnd-8000.csb.app/portal?auth=85jitel")
-    st.link_button("Extra Games", "https://5nv5pz-8000.csb.app/gms")
-    st.link_button("Better Proxy", "https://5nv5pz-8000.csb.app")
+    st.link_button("Extra Games", "https://rzl6h2-8000.csb.app/gms")
+    st.link_button("Better Proxy", "https://rzl6h2-8000.csb.app/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
@@ -266,7 +266,6 @@ def play_cross():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
-
 
 def play_info():
     st.title("Information")
