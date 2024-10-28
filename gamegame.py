@@ -1,18 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
-import redis
 
-r = Image.open("download.jpeg")
-
-# Connect to Redis
-redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)
-
-# Initialize online counter for this session
-if 'user_online' not in st.session_state:
-    st.session_state.user_online = True
-    redis_client.incr('online_count')
-
+#r = Image.open("download.jpeg")
 # Define the pages
 PAGES = {
     "Home": "home",
@@ -35,19 +25,16 @@ PAGES = {
 }
 
 def main():
-    # Display online user count at the top of the home page
-    online_count = int(redis_client.get('online_count'))
-    st.sidebar.markdown(f"**Users Online: {online_count}**")
-
     st.header("Barcelona won😢😭😭😢😢😭😭😢😢😭😭😢")
     st.link_button("🚨🚨EMERGENCY!(Click if the teacher is near)🚨🚨", "https://www.aleks.com/login")
-
     if 'page' not in st.session_state:
         st.session_state.page = "home"
 
     # Sidebar for navigation
     st.sidebar.title("Navigation")
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
+
+    # Set session state for page navigation
     st.session_state.page = PAGES[selection]
 
     # Load the selected page
@@ -88,20 +75,11 @@ def main():
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
-    st.image(r, width=300)
+   # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://jck9dy-8080.csb.app/")
     st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
-
-# Ensure the online count decreases when users leave
-def decrement_online_count():
-    if st.session_state.user_online:
-        redis_client.decr('online_count')
-        st.session_state.user_online = False
-
-# Call the function when Streamlit app closes
-st.on_session_state_update(decrement_online_count)
 
 def play_2048():
     st.title('Play 2048')
