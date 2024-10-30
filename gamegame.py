@@ -321,6 +321,7 @@ def play_get():
 
 def play_lol():
     st.title('Play 1v1 LOL')
+    st.write("the game sometimes it doesn't let you go full 360 if it does use this link https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/")
 
     # URL of the game or webpage you want to embed
     game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/'
