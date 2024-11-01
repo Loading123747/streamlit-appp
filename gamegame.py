@@ -78,14 +78,14 @@ def home():
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://jck9dy-8080.csb.app/")
-    st.link_button("Live Chat", "https://m59wy3-5000.csb.app/")
+    st.link_button("Proxy", "https://6glct3-8080.csb.app/")
+    st.link_button("Live Chat", "https://q57pzh-8080.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly8yMDQ4Z2FtZS5jb20=_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8yMDQ4Z2FtZS5jb20=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -103,7 +103,7 @@ def play_Slither():
     st.title('Play Slope')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9zbG9wZTMuY29t_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9zbG9wZTMuY29t_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -120,7 +120,7 @@ def play_powerline():
     st.title('Play 5 Nights At Freddys')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9maXZlbmlnaHRzYXRmcmVkZHlzMy5jb20=_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9maXZlbmlnaHRzYXRmcmVkZHlzMy5jb20=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -139,7 +139,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -177,7 +177,7 @@ def play_geo():
     st.title('Play Granny')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9ncmFubnktZ2FtZXMuY29t_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9ncmFubnktZ2FtZXMuY29t_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -196,7 +196,7 @@ def play_level():
     st.title('Play Bitlife')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/bitlife'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/bitlife'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -215,7 +215,7 @@ def play_basket():
     st.title('Play Basket Random')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/basket-random'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/basket-random'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -250,7 +250,7 @@ def play_trial():
     st.title('Play Level Devil')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/level-devil'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/level-devil'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -268,7 +268,7 @@ def play_cross():
     st.title('Play Crossy Road')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/crossy-road'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/crossy-road'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -286,7 +286,7 @@ def play_retro():
     st.title('Play Retro Bowl')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9yZXRyb2Jvd2wubWU=_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9yZXRyb2Jvd2wubWU=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -304,7 +304,7 @@ def play_get():
     st.title('Play Getaway Shootout')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9nZXRhd2F5LXNob290b3V0LmNvbQ==_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9nZXRhd2F5LXNob290b3V0LmNvbQ==_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -321,10 +321,9 @@ def play_get():
 
 def play_lol():
     st.title('Play 1v1 LOL')
-    st.write("the game sometimes it doesn't let you go full 360 if it does use this link https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/'
+    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -342,7 +341,7 @@ def play_uno():
     st.title('Play Uno')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://jck9dy-8080.csb.app/web/_aHR0cHM6Ly9nZXRhd2F5LXNob290b3V0LmNvbQ==_/uno-online'
+    game_url = 'https://j6glct3-8080.csb.app/web/_aHR0cHM6Ly9nZXRhd2F5LXNob290b3V0LmNvbQ==_/uno-online'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
