@@ -25,7 +25,6 @@ PAGES = {
 }
 
 def main():
-    st.header("Barcelona won😢😭😭😢😢😭😭😢😢😭😭😢")
     st.link_button("🚨🚨EMERGENCY!(Click if the teacher is near)🚨🚨", "https://www.aleks.com/login")
     if 'page' not in st.session_state:
         st.session_state.page = "home"
@@ -78,8 +77,8 @@ def home():
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://6glct3-8080.csb.app/")
-    st.link_button("Live Chat", "https://q57pzh-8080.csb.app/")
+    st.link_button("Proxy", "https://special-potato-4jgw6j4jgrg93jvw-8080.app.github.dev/")
+    st.link_button("Live Chat", "https://q57pzh-8080.cb.app/")
 
 def play_2048():
     st.title('Play 2048')
