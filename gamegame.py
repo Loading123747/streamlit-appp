@@ -231,17 +231,26 @@ def play_basket():
 
 def play_app():
     st.title('Apps')
-
-    st.link_button("Crazy Games", "https://rzl6h2-8000.csb.app/live?auth=51u3w53")
-    st.link_button("Now.gg", "https://rzl6h2-8000.csb.app/live?auth=03k3fdc")
-    st.link_button("Chess.com", "https://rzl6h2-8000.csb.app/live?auth=tbuv9l6")
-    st.link_button("Tiktok", "https://rzl6h2-8000.csb.app/live?auth=tbuv9l6")
-    st.link_button("CoolMath Games", "https://rtqpnd-8000.csb.app/portal?auth=bicqrgu")
-    st.link_button("9amine", "https://rtqpnd-8000.csb.app/portal?auth=jfa05at")
-    st.link_button("SFlix Movies", "https://rtqpnd-8000.csb.app/portal?auth=513v99m")
-    st.link_button('Netflix', "https://rtqpnd-8000.csb.app/portal?auth=85jitel")
-    st.link_button("Extra Games", "https://rzl6h2-8000.csb.app/gms")
-    st.link_button("Better Proxy", "https://rzl6h2-8000.csb.app/")
+    st.write("If it doesn't work, in the url (in the proxy below the actual url. it is in dark bule) enter the url (proxy url) shown on top of the buttons")
+    st.title("            ")
+    st.write("https://www.crazygames.com/")
+    st.link_button("Crazy Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=mjr4sin")
+    st.write("https://now.gg/")
+    st.link_button("Now.gg", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=ln31ksk")
+    st.write("https://www.chess.com/")
+    st.link_button("Chess.com", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=jd8uf23")
+    st.write("https://www.tiktok.com/explore")
+    st.link_button("Tiktok", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=s03pvfq")
+    st.write("https://www.coolmathgames.com/")
+    st.link_button("CoolMath Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=on8ui0v")
+    st.write("https://9amime.com/")
+    st.link_button("9amine", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=l031ddm")
+    st.write("https://SFlix.com/")
+    st.link_button("SFlix Movies", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=8qm5t6r")
+    st.write("https://Netflix.com/")
+    st.link_button('Netflix', "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=cgp5cbs")
+    st.link_button("Extra Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/gms")
+    st.link_button("Better Proxy", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
@@ -322,6 +331,8 @@ def play_lol():
     st.title('Play 1v1 LOL')
 
     # URL of the game or webpage you want to embed
+    st.write("somtimes it is a bit glitchy and if it is go to this link: https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/")
+    st.write("to play with friends or 1v1 other real people click on the plus icon and then click create party. share the code to play with friends (only works with 2 people including you, or don't share to play by your self or online player) then click play only party leader can click play")
     game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
