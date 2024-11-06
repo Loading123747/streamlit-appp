@@ -19,6 +19,7 @@ PAGES = {
     "Play Getaway Shootout": "get",
     "Play 1v1 LOL": "lol",
     "Play Uno": "uno",
+    "Play Geforce Now": "g",
     "Information": "info",
     "Apps": "app",
     "Your Games": "dev"
@@ -71,14 +72,16 @@ def main():
         play_lol()
     elif st.session_state.page == "uno":
         play_uno()
+    elif st.session_state.page == "g":
+        play_g()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://special-potato-4jgw6j4jgrg93jvw-8080.app.github.dev/")
-    st.link_button("Live Chat", "https://q57pzh-8080.cb.app/")
+    st.link_button("Proxy", "https://6glct3-8080.csb.app")
+    st.link_button("Live Chat", "https://q57pzh-8080.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -191,23 +194,6 @@ def play_geo():
         st.session_state.page = 'home'
 
 
-def play_level():
-    st.title('Play Bitlife')
-
-    # URL of the game or webpage you want to embed
-    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/bitlife'
-
-    # HTML code to embed the game in an iframe with fullscreen option
-    iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
-    '''
-
-    # Render the iframe in the Streamlit app
-    components.html(iframe_code, height=800)
-
-    # Button to go back to the home page
-    if st.button('Back to Home'):
-        st.session_state.page = 'home'
 
 
 def play_basket():
@@ -364,6 +350,8 @@ def play_uno():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
+
 
 
 def play_info():
