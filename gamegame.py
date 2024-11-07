@@ -11,7 +11,7 @@ PAGES = {
     "Play Basketball Stars": "Wing",
     "Play Slope": "Slither",
     "Play Granny": "geo",
-    "Play Bitlife": "level",
+    "Play Escape Road": "level",
     "Play Level Devil": "trial",
     "Play Basket Random": "basket",
     "Play Crossy Road": "cross",
@@ -19,7 +19,6 @@ PAGES = {
     "Play Getaway Shootout": "get",
     "Play 1v1 LOL": "lol",
     "Play Uno": "uno",
-    "Play Geforce Now": "g",
     "Information": "info",
     "Apps": "app",
     "Your Games": "dev"
@@ -72,15 +71,15 @@ def main():
         play_lol()
     elif st.session_state.page == "uno":
         play_uno()
-    elif st.session_state.page == "g":
-        play_g()
+    
+    
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
-    st.link_button("Proxy", "https://6glct3-8080.csb.app")
+    st.link_button("Proxy", "https://cg3988-8080.csb.app/")
     st.link_button("Live Chat", "https://q57pzh-8080.csb.app/")
 
 def play_2048():
@@ -141,7 +140,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9iYXNrZXRiYWxsc3RhcnMtZ2FtZS5pbw==_/'
+    game_url = 'https://cg3988-8080.csb.app/service/hvtrs8%2F-bcsievbcln-qtcrq.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -177,9 +176,10 @@ def play_dev():
 
 def play_geo():
     st.title('Play Granny')
+    st.write("Click the England flag for english then click play")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly9ncmFubnktZ2FtZXMuY29t_/'
+    game_url = 'https://cg3988-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -194,6 +194,23 @@ def play_geo():
         st.session_state.page = 'home'
 
 
+def play_level():
+    st.title('Play Escape Road')
+
+    # URL of the game or webpage you want to embed
+    game_url = 'https://cg3988-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
+
+    # HTML code to embed the game in an iframe with fullscreen option
+    iframe_code = f'''
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
+    '''
+
+    # Render the iframe in the Streamlit app
+    components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
 
 
 def play_basket():
@@ -235,8 +252,8 @@ def play_app():
     st.link_button("SFlix Movies", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=8qm5t6r")
     st.write("https://Netflix.com/")
     st.link_button('Netflix', "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=cgp5cbs")
-    st.link_button("Extra Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/gms")
-    st.link_button("Better Proxy", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/")
+    st.link_button("Extra Games", "https://72rftw-8000.csb.app/gms")
+    st.link_button("Better Proxy", "https://72rftw-8000.csb.app/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
