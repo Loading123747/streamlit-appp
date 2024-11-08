@@ -71,8 +71,8 @@ def main():
         play_lol()
     elif st.session_state.page == "uno":
         play_uno()
-    
-    
+    elif st.session_state.page == "g":
+        play_g()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -140,7 +140,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://cg3988-8080.csb.app/service/hvtrs8%2F-bcsievbcln-qtcrq.ko-/'
+    game_url = 'https://cg3988-8080.csb.app/service/hvtrs8%2F-wuw%2Csloiifo%2Ccmm-gcmg%2F%60aqkgt%60anl%2Fsvaps/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -237,21 +237,23 @@ def play_app():
     st.write("If it doesn't work, in the url (in the proxy below the actual url. it is in dark bule) enter the url (proxy url) shown on top of the buttons")
     st.title("            ")
     st.write("https://www.crazygames.com/")
-    st.link_button("Crazy Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=mjr4sin")
+    st.link_button("Crazy Games", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://now.gg/")
-    st.link_button("Now.gg", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=ln31ksk")
+    st.link_button("Now.gg", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://www.chess.com/")
-    st.link_button("Chess.com", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=jd8uf23")
+    st.link_button("Chess.com", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://www.tiktok.com/explore")
-    st.link_button("Tiktok", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=s03pvfq")
+    st.link_button("Tiktok", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://www.coolmathgames.com/")
-    st.link_button("CoolMath Games", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=on8ui0v")
+    st.link_button("CoolMath Games", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://9amime.com/")
-    st.link_button("9amine", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=l031ddm")
+    st.link_button("9amine", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://SFlix.com/")
-    st.link_button("SFlix Movies", "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=8qm5t6r")
+    st.link_button("SFlix Movies", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.write("https://Netflix.com/")
-    st.link_button('Netflix', "https://ominous-space-potato-g4w5xjxv649cv4q9-8000.app.github.dev/live?auth=cgp5cbs")
+    st.link_button('Netflix', "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
+    st.write("https://bobzgames.github.io/GBA/")
+    st.link_button("GBA Emulator", "https://72rftw-8000.csb.app/mastery?auth=5sr02nn")
     st.link_button("Extra Games", "https://72rftw-8000.csb.app/gms")
     st.link_button("Better Proxy", "https://72rftw-8000.csb.app/")
     if st.button('Back to Home'):
@@ -367,9 +369,6 @@ def play_uno():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
-
-
-
 
 def play_info():
     st.title("Information")
