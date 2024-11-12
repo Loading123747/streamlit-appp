@@ -285,7 +285,7 @@ def play_basket():
     st.title('Play Galdihoppers')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://tgcofficial.github.io/games/gladihoppers/'
+    game_url = 'https://dz6h33-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
