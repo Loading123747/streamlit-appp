@@ -93,7 +93,7 @@ def play_2048():
     st.title('Play 2048')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8yMDQ4Z2FtZS5jb20=_/'
+    game_url = 'https://fxqwdq-8080.csb.app/web/_aHR0cHM6Ly8yMDQ4Z2FtZS5jb20=_/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -404,7 +404,7 @@ def play_lol():
     st.title('Play 1v1 LOL')
 
     # URL of the game or webpage you want to embed
-    st.write("somtimes it is a bit glitchy and if it is go to this link: https://6glct3-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/")
+    st.write("somtimes it is a bit glitchy and if it is go to this link: https://fxqwdq-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/")
     st.write("to play with friends or 1v1 other real people click on the plus icon and then click create party. share the code to play with friends (only works with 2 people including you, or don't share to play by your self or online player) then click play only party leader can click play")
     game_url = 'https://fxqwdq-8080.csb.app/web/_aHR0cHM6Ly8xdjFsb2wubWU=_/'
 
