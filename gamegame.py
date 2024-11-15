@@ -444,7 +444,7 @@ def play_uno():
 def math():
     st.title("Mathway")
     # URL of the game or webpage you want to embed
-    game_url = "https://www.mathway.com/Algebra'
+    game_url = "https://www.mathway.com/Algebra"
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
