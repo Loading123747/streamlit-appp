@@ -22,6 +22,7 @@ PAGES = {
     "Play Getaway Shootout": "get",
     "Play 1v1 LOL": "lol",
     "Play Uno": "uno",
+    "Mathway(for help with math)": "math",
     "Information": "info",
     "Apps": "app",
     "Your Games": "dev"
@@ -80,6 +81,8 @@ def main():
         play_soccer2()
     elif st.session_state.page == "cup":
         play_cup()
+    elif st.session_stae.page == "math"
+        math()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -437,6 +440,24 @@ def play_uno():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
+def math():
+    st.title("Mathway")
+    # URL of the game or webpage you want to embed
+    game_url = "https://www.mathway.com/Algebra'
+
+    # HTML code to embed the game in an iframe with fullscreen option
+    iframe_code = f'''
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
+    '''
+
+    # Render the iframe in the Streamlit app
+    components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
 
 def play_info():
     st.title("Information")
