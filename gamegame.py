@@ -81,8 +81,8 @@ def main():
         play_soccer2()
     elif st.session_state.page == "cup":
         play_cup()
-    elif st.session_stae.page == "math":
-        play_math()
+    elif st.session_state.page == "math":
+        math()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
