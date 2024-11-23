@@ -95,7 +95,7 @@ def home():
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
     st.link_button("Proxy", "https://dz6h33-8080.csb.app/")
-    st.link_button("Live Chat", "https://d4vzyl-8080.csb.app/")
+    st.link_button("Live Chat", "https://n9p529-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -492,8 +492,3 @@ def play_info():
 left_column, right_column = st.columns(2)
 if __name__ == "__main__":
     main()
-
-
-
-
-
